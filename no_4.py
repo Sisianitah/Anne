@@ -9,8 +9,20 @@
 # if the student selects 2, money should be withdrawn and the minimum withdraw is 500.
 # if the student selects 3, the account balance shold be displyed.
 
-#soln
-witi_sacco = savinng witi_sacco
+
+company = 'welcome to Witi Sacco'
 diposit_money = 1000
 withdraw_money = 500
-check_balance = 'balance'
+check_balance = 'Balance'
+class WITIAcademySacco:
+    def __init__(self):
+        self.balance = 0
+
+        def deposit(self, amount):
+            if amount >= 1000:
+                self.balance +=
+ amount
+                print(f'successfully deposited{amount}. New balance is {self.balance}')
+            else:
+                 print('minimum')
+
