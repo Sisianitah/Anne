@@ -3,8 +3,9 @@
 # Base and height should be entered  using the keyboard.
 
 #soln
-
-Area_of_triangle=(base * height) 
-base = float(input('Enter the base of the triangle: '))
+ 
+base = int(input('Enter the base of the triangle: '))
 height = float(input('Enter the height of the triangle: '))
-print(f'Area of a triangle is: {triangle_area}')
+Area = 1/2*(base*height)
+
+print(f'Area of a triangle is: {Area}')

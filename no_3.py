@@ -10,12 +10,18 @@
 # < 50% Fail
 
 #soln.
-student_name =  'Ritah'
-student_number = 'SERA/0001/24'
-python = 78
-mathematics = 50
-web_development = 98
-communication_skills = 90
-graphics_designing = 80 
-computer_application = 60
-data_science = 79
+score = int(input('Enter the students score: \t'))
+
+if 90 <= score <= 100:
+    print('Grade is A')
+elif 80 <= score <= 89:
+    print('Grade is B')  
+elif 70 <= score <= 69:
+    print('Grade is C')
+elif 60 <= score <= 69:
+    print('Grade is D')
+elif 50 <= score <= 59:
+    print('Grade is E')
+else:
+    print('fail')            
+
